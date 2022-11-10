@@ -1,0 +1,110 @@
+body{
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+}
+
+h1,h2,h3,h4{
+   font-family: 'Barlow', sans-serif;
+}
+
+a,p,li{
+   font-family: 'Zen Antique', serif;
+}
+
+aside p{
+   font-family: 'Inter', sans-serif;
+}
+aside li{
+   font-family: 'Inter', sans-serif;
+}
+
+code{
+   background-color: lightgray;
+   padding: 1px;
+}
+li{
+    padding: 5px;
+ }
+
+.figure a{
+    font-weight: bold;
+ }
+
+.figure img{
+   width: 600px;
+   height: 300px;
+}
+
+ .emphasize{
+    color:darkblue;
+    font-weight: bold;
+    font-size: larger;
+ }
+
+ aside
+ {
+    position: absolute;
+    box-shadow: inset 5px 0 5px -5px darkblue;
+    padding-left: 15px;
+ }
+
+#sidebar_data_reqs{
+   min-width: 225px;
+   width: 13%;
+   top: 100px;
+   left: 10%;
+}
+
+#sidebar_dichotomous_info{
+   min-width: 225px;
+   width: 13%;
+   top: 1450px;
+   left: 10%;
+ }
+
+ #sidebar_anazlyzing_stats{
+   min-width: 225px;
+   width: 13%;
+   top: 2200px;
+   left: 10%;
+ }
+
+ #sidebar_UCLA_help{
+   min-width: 225px;
+   width: 13%;
+   top: 3900px;
+   left: 10%;
+ }
+
+ #sidebar_being_realistic_1{
+   min-width: 225px;
+   width: 13%;
+   top: 2100px;
+   left: 10%;
+ }
+
+ #sidebar_being_realistic_2{
+   min-width: 225px;
+   width: 13%;
+   top: 4200px;
+   left: 10%;
+ }
+
+ #sidebar_being_realistic_3{
+   min-width: 225px;
+   width: 13%;
+   top: 4900px;
+   left: 10%;
+ }
+
+ #sidebar_being_realistic_4{
+   min-width: 225px;
+   width: 13%;
+   top: 6500px;
+   left: 10%;
+ }
+
+ .nav_bar a{
+   font-size: large;
+ }
