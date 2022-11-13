@@ -1,17 +1,52 @@
+/* Main Content Styling*/
 body{
     max-width: 600px;
     margin: auto;
     padding: 50px;
 }
-
 h1,h2,h3,h4{
    font-family: 'Barlow', sans-serif;
 }
-
 a,p,li{
    font-family: 'Zen Antique', serif;
 }
+li{
+  padding: 5px;
+}
 
+/* Key Terms & Code Styling */
+code{
+   background-color: lightgray;
+   padding: 1px;
+}
+
+
+/* Figure/Image Styling*/
+.figure a{
+    font-weight: bold;
+ }
+
+.figure img{
+   width: 600px;
+   height: 300px;
+}
+
+/* Custom Emphasized Text Styling*/
+ .emphasize{
+    color:darkblue;
+    font-weight: bold;
+    font-size: larger;
+ }
+
+ /* Aside Sidebar Styling */
+aside
+{
+   position: absolute;
+   box-shadow: inset 5px 0 5px -5px darkblue;
+   background-color: gainsboro;
+   padding-left: 15px;
+   padding-right: 15px;
+}
 aside p{
    font-size: 5;
    font-family: 'Titillium Web', sans-serif;
@@ -26,38 +61,7 @@ aside img{
    height: 40px;
 }
 
-code{
-   background-color: lightgray;
-   padding: 1px;
-}
-li{
-    padding: 5px;
- }
-
-.figure a{
-    font-weight: bold;
- }
-
-.figure img{
-   width: 600px;
-   height: 300px;
-}
-
- .emphasize{
-    color:darkblue;
-    font-weight: bold;
-    font-size: larger;
- }
-
- aside
- {
-    position: absolute;
-    box-shadow: inset 5px 0 5px -5px darkblue;
-    background-color: gainsboro;
-    padding-left: 15px;
-    padding-right: 15px;
- }
-
+/* Sidebars Positioning */
 #sidebar_data_reqs{
    min-width: 225px;
    width: 13%;
@@ -121,6 +125,7 @@ li{
    left: 10%;
  }
 
+ /* Navigation Bar Styling*/
  .nav_bar a{
    font-size: large;
  }
@@ -135,7 +140,6 @@ li{
    width: 60px;
    height: 60px;
  }
-
  .previous_module{
    float: left;
  }
